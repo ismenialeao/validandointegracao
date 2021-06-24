@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulario Login</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body> 
+    <form action="https://menuprojeto.ismnialeo.repl.co/"  method="post" id="myForm">
+    <div class="login">
+        <h1>Login</h1>
+        <hr>
+        <div>
+            <label for="Seu e-mail">Seu e-mail</label>
+            <input type="e-mail" name="email" id="email" 
+            placeholder="contato@htmlecsspro.com">
+        </div>
+        <div>
+            <label for="Sua senha">Sua senha</label>
+            <input type="password" name="senha" id="senha" placeholder="1234"> <!-- Validando os campos-->
+        </div>
+        <div class="Manterlogado-container">
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+        <div class="boton">
+            <input type="submit" value="Logar" onclick="logares()"/>
+        </div> 
+            <div id="Register-container">
+            <p>Ainda não tem conta?</p>
+            <input type="button" value="Cadastre-se"> 
+        </div>
+    </div>
+ 
+    </form>
+<div>
+<script src="script.js">
+</script>
+
+</body>
+</html>
